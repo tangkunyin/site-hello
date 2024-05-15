@@ -24,13 +24,7 @@
         href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
         rel="stylesheet" />
     <link href="css/aboutme.css" rel="stylesheet" />
-    <script async src="js/impress.js"></script>
-    <script>
-        impress().init();
-        if ("ontouchstart" in document.documentElement) {
-            document.querySelector(".hint").innerHTML = "<p>在左侧或右侧点击继续</p>";
-        }
-    </script>
+    <script defer src="js/impress.js"></script>
 </head>
 
 <body class="impress-not-supported">
@@ -148,6 +142,12 @@
         <p>使用空格或方向键继续</p>
     </div>
 
+    <script>
+        impress().init();
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>在左侧或右侧点击继续</p>";
+        }
+    </script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NEF2G8FZFZ"></script>
     <script>
