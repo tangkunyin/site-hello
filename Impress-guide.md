@@ -26,7 +26,7 @@ EXAMPLES AND OTHER LEARNING RESOURCES
 
 ### Official demo
 
-[impress.js demo](http://impress.github.io/impress.js/) by [@bartaz](http://twitter.com/bartaz)
+[impress.js demo](http://impress.github.io/impress.js/) by [@bartaz](http://x.com/bartaz)
 
 ### Examples and demos
 
@@ -54,7 +54,7 @@ If you need informations about versions, check the [changelog](CHANGELOG.md).
 ABOUT THE NAME
 ----------------
 
-impress.js name in [courtesy of @skuzniak](http://twitter.com/skuzniak/status/143627215165333504).
+impress.js name in [courtesy of @skuzniak](http://x.com/skuzniak/status/143627215165333504).
 
 It's an (un)fortunate coincidence that a Open/LibreOffice presentation tool is called Impress ;)
 
