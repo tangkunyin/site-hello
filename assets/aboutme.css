@@ -47,7 +47,7 @@ table {
 
 body {
     font-family: 'PT Sans', sans-serif;
-    min-height: 740px;
+    min-height: 800px;
 
     background: rgb(215, 215, 215);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
@@ -185,7 +185,6 @@ a:focus {
 
 #title h1 {
     font-size: 190px;
-
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
     -ms-transform:     translateZ(50px);
@@ -198,27 +197,27 @@ a:focus {
 }
 
 #welcome {
-    width: 600px;
+    width: 1080px;
     text-align: center;
     font-size: 40px;
     line-height: 1;
 }
 
 #welcome .title {
-    font-size: 90px;
-    line-height: 150px;
+    font-size: 120px;
+    line-height: 160px;
 }
 
 #welcome .footnote {
-    font-size: 20px;
+    font-size: 26px;
 }
 
 #tiny {
-    width: 500px;
+    width: 800px;
     text-align: center;
 }
 
-#me { width: 600px }
+#me { width: 800px }
 
 #me b {
     display: inline-block;
@@ -230,7 +229,7 @@ a:focus {
 }
 
 #me.present .now_me {
-    font-size: 90px;
+    font-size: 72px;
     -webkit-transform: translateY(-10px);
     -moz-transform:    translateY(-10px);
     -ms-transform:     translateY(-10px);
@@ -281,7 +280,7 @@ a:focus {
 }
 
 #whereiam {
-    width: 600px;
+    width: 800px;
 }
 
 #whereiam .born {
@@ -303,7 +302,7 @@ a:focus {
 }
 
 #location {
-    width: 650px;
+    width: 1080px;
 }
 
 #location b {
@@ -330,7 +329,9 @@ a:focus {
 }
 
 #location .footnote {
-    font-size: 15px;
+    font-size: 16px;
+    text-decoration: line-through;
+    font-style: italic;
 }
 
 #meet {
@@ -338,12 +339,12 @@ a:focus {
 }
 
 #comein {
-    width: 1000px;
+    width: 1080px;
     text-align: center;
 }
 
 #mywords {
-    width: 1000px;
+    width: 1080px;
     text-align: center;
 }
 
@@ -356,7 +357,7 @@ a:focus {
 }
 
 #imagination {
-    width: 600px;
+    width: 1080px;
 }
 
 #imagination .imagination {
@@ -364,7 +365,7 @@ a:focus {
 }
 
 #findme {
-    width: 900px;
+    width: 1080px;
     padding-bottom: 150px;
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -468,9 +469,9 @@ a:focus {
 }
 
 #back {
-    width: 500px;
+    width: 600px;
     padding: 0 0 520px 0;
-    background-image: url(../avatars.png);
+    background-image: url(./avatars.png);
     background-size: 300px 342px;
     background-position: left;
     background-repeat: no-repeat;
@@ -484,25 +485,18 @@ a:focus {
 }
 
 .hint {
-
     display: none;
-
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
-
     background: rgba(0,0,0,0.5);
     color: #EEE;
     text-align: center;
-
-    font-size: 50px;
-    padding: 20px;
-
+    font-size: 28px;
+    padding: 22px;
     z-index: 100;
-
     opacity: 0;
-
     -webkit-transform: translateY(400px);
     -moz-transform:    translateY(400px);
     -ms-transform:     translateY(400px);
